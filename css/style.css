@@ -6485,6 +6485,10 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
     font-size: 26px;
   }
 
+  .production__text {
+    text-align: center;
+  }
+
   .how-we-work {
     padding: 0px 0px 72px 0px;
   }
@@ -6554,6 +6558,12 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
 
   .contacts {
     padding: 0px 0px 35px 0px;
+  }
+
+  .contacts__content._watcher-view {
+    -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
+            transform: translate(0, 0);
   }
 
   .contacts__content {
