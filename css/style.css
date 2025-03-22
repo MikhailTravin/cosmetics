@@ -48,7 +48,7 @@
 html,
 body {
   height: 100%;
-  min-width: 375px;
+  min-width: 320px;
 }
 
 body {
@@ -1525,6 +1525,7 @@ p.p-color {
   background-color: #6c5545;
   border-radius: 11px;
   padding: 15px;
+  height: 100%;
 }
 
 .about__title {
@@ -5144,6 +5145,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   }
 
   .menu__icon {
+    cursor: pointer;
     -webkit-box-flex: 0;
         -ms-flex: 0 0 48px;
             flex: 0 0 48px;
@@ -6918,6 +6920,37 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
 
   .packaging__item {
     height: 118px;
+  }
+}
+
+@media (max-width: 375px) {
+  .header__logo img {
+    width: 110px;
+  }
+
+  .header__contacts {
+    margin: 0px 5px 0px 0px;
+  }
+
+  .contacts-header__button {
+    padding: 11px;
+    font-size: 12px;
+  }
+
+  .main-home__item span {
+    font-size: 10px;
+  }
+
+  .main-home__num {
+    font-size: 22px;
+  }
+
+  .production__number span {
+    font-size: 12px;
+  }
+
+  .production__num {
+    font-size: 22px;
   }
 }
 
